@@ -24,7 +24,7 @@ html,body{
     align-items: center;
     justify-content: center;
     text-align: center;
-    color: aliceblue;
+    color: rgb(239, 241, 244);
     font-size: 2.5rem;
 }
 
@@ -42,10 +42,19 @@ html,body{
      color: white;
 }
 
-.setting-content{
+/* .setting-content{
     display: flex;
     gap: 2rem;
-}
+} */
+
+/* .setting-content {
+    display: flex;
+    gap: 1rem;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+} */
+
 .setting-content input{
     padding: 0.5rem 1rem;
     font-size: 1rem;
