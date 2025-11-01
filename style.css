@@ -25,5 +25,44 @@ html,body{
     justify-content: center;
     text-align: center;
     color: aliceblue;
-    font-size: 4rem;
+    font-size: 2.5rem;
 }
+
+.settings{
+    position: absolute;
+    bottom: 15px;
+    /* right: 10px; */
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.settings .fa-cog{
+    font-size: 2.5rem;
+     color: white;
+}
+
+.setting-content{
+    display: flex;
+    gap: 2rem;
+}
+.setting-content input{
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+}
+
+.setting-content button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background-color: rgba(255, 255, 255, 0.15); /* light transparent bg */
+    color: #fff; /* white text for visibility */
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 5px;
+    cursor: pointer;
+    backdrop-filter: blur(5px); /* nice glass effect */
+}
+
+.setting-content button:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
